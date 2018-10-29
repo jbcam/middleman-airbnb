@@ -1,28 +1,32 @@
-flat1:
+robert:
   city: 'Harare'
   country: 'Zimbabwe'
-  host: 'Robert'
+  profile: 'https://cs.mg.co.za/crop/content/images/2018/03/22/bUXiz7RcTq2hgXB2xjZK_RobertMugabe_PhillMagakoe_AFP.jpg/450x450/'
   baseline: 'Charming house in Harare'
   desc: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur."
+  rating: 4
   picture: 'https://i2-prod.mirror.co.uk/incoming/article11552705.ece/ALTERNATES/s615b/mugabe.jpg'
-flat2:
+vladimir:
   city: 'Moscou'
   country: 'Russia'
-  host: 'Vladimir'
+  profile: 'https://cdn.24.co.za/files/Cms/General/d/121/f357732f64a0489dae486b41e348f989.jpg'
+  rating: 3
   baseline: 'Nice flat in Moscou'
   #desc: 'This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue.'
   picture: 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/10/09/23/rexfeatures_625219a.jpg?width=215&height=298&fit=bounds&format=pjpg&auto=webp&quality=70&crop=16:9,offset-y0.5'
-flat3:
+xi:
   city: 'Beijing'
   country: 'China'
-  host: 'Xi'
+  profile: 'https://specials-images.forbesimg.com/imageserve/5aecccdf31358e612fb80afa/416x416.jpg?background=000000&cropX1=1234&cropX2=3554&cropY1=348&cropY2=2667'
   baseline: 'Palace in Beijing'
+  rating: 4
   # desc: 'This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue.'
   picture: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Forbidden_City_Beijing_Shenwumen_Gate.JPG'
-flat4:
+kim:
   city: 'Pyongyang'
   country: 'North Korea'
-  host: 'Kim'
+  profile: 'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTIwNjA4NjM0MjAzODMzODY4/to-go-with-oly-2012-prkfeaturefiles.jpg'
   baseline: 'Amazing flat in Pyongyang'
+  rating: 5
   # desc: 'This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue.'
   picture: 'http://1.bp.blogspot.com/-EcRJrz-Exzo/Vl78K9gn0II/AAAAAAAACXQ/CboQZ1H-L40/s1600/MM00237486.jpg'

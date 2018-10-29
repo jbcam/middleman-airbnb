@@ -23,16 +23,16 @@ title: Le Wagon - Middleman
   <div class="container padded">
     <h2 class="text-center">Recent flats</h2>
     <div class="row">
-      <% data.flats.each do |owner, flat| %>
+      <% data.flats.each do |host, flat| %>
         <div class="col-sm-6 col-md-3">
           <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= flat.picture %>);">
-            <div class="card-category"><%= flat.city.capitalize %>, <%= flat.country.capitalize %></div>
+            <div class="card-category"><%= flat.city %>, <%= flat.country %></div>
             <div class="card-description">
-              <h2><%= flat.host %>'s appartment</h2>
+              <h2><%= host.capitalize %>'s appartment</h2>
               <p><%= flat.baseline %></p>
             </div>
-            <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-            <a class="card-link" href="#"></a>
+            <img class="card-user" src=<%= flat.profile %>>
+              <%= link_to "About", "/flats/#{host}.html", class: "card-link" %>
           </div>
         </div>
       <% end %>
