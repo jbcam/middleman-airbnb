@@ -1,0 +1,28 @@
+flat1:
+  city: 'Harare'
+  country: 'Zimbabwe'
+  host: 'Robert'
+  baseline: 'Charming house in Harare'
+  desc: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur."
+  picture: 'https://i2-prod.mirror.co.uk/incoming/article11552705.ece/ALTERNATES/s615b/mugabe.jpg'
+flat2:
+  city: 'Moscou'
+  country: 'Russia'
+  host: 'Vladimir'
+  baseline: 'Nice flat in Moscou'
+  #desc: 'This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue.'
+  picture: 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/10/09/23/rexfeatures_625219a.jpg?width=215&height=298&fit=bounds&format=pjpg&auto=webp&quality=70&crop=16:9,offset-y0.5'
+flat3:
+  city: 'Beijing'
+  country: 'China'
+  host: 'Xi'
+  baseline: 'Palace in Beijing'
+  # desc: 'This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue.'
+  picture: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Forbidden_City_Beijing_Shenwumen_Gate.JPG'
+flat4:
+  city: 'Pyongyang'
+  country: 'North Korea'
+  host: 'Kim'
+  baseline: 'Amazing flat in Pyongyang'
+  # desc: 'This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue.'
+  picture: 'http://1.bp.blogspot.com/-EcRJrz-Exzo/Vl78K9gn0II/AAAAAAAACXQ/CboQZ1H-L40/s1600/MM00237486.jpg'

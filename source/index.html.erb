@@ -1,15 +1,39 @@
 ---
 title: Le Wagon - Middleman
 ---
-
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<!-- Banner -->
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+  <div class="banner-content">
+    <h1>Welecome home</h1>
+    <p>Book unique homes and experience a city like a local.</p>
+    <form class="form-inline">
+      <input type="text" class="form-control input-lg" id="destination" placeholder="Where?">
+      <input type="text" class="form-control input-lg" id="date" placeholder="When?">
+      <select class="form-control input-lg" id="guest">
+        <option value="1">1 guest</option>
+        <option value="2">2 guests</option>
+        <option value="3">3 guests</option>
+      </select>
+      <button type="submit" class="btn btn-primary btn-lg">Search</button>
+    </form>
+  </div>
+</div>
+<!-- Cards -->
+<div class="container">
+  <h2 class="text-center">Recent flats</h2>
+  <div class="row">
+    <% data.flats.each do |owner, flat| %>
+      <div class="col-sm-6 col-md-3">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= flat.picture %>);">
+          <div class="card-category"><%= flat.city.capitalize %>, <%= flat.country.capitalize %></div>
+          <div class="card-description">
+            <h2><%= flat.host %>'s appartment</h2>
+            <p><%= flat.baseline %></p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+          <a class="card-link" href="#"></a>
+        </div>
+      </div>
+    <% end %>
   </div>
 </div>
